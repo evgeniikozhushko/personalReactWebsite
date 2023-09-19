@@ -15,6 +15,11 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
+          {/* Home background image*/}
+          {/* <div
+            className="h_bg-image order-1 order-lg-2 h-100 "
+            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+          ></div> */}
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
             style={{ backgroundImage: `url(${introdata.your_img_url})` }}
@@ -38,6 +43,8 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
+                {/* This code block making sure the empty <p> is hidden if there no text.</p>*/}
+                {introdata.descriptionTwo && <p className="mb-1x">{introdata.descriptionTwo}</p>}
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">

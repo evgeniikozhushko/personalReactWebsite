@@ -1,23 +1,25 @@
-const logotext = "JOHN";
+const logotext = "E";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Evgenii Kozhushko",
+    description: "I’m Evgenii Kozhushko designer _ Front end devloper, currently working in Canmore",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Evgenii Kozhushko",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I build websites",
+        second: "I design things",
+        third: "Let's chat!",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Convey elegance and modern style and ensure robust functionality.",
+    descriptionTwo: "",
+    // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: "I am Evgenii Kozhushko, a designer and web developer. I construct web and design solutions that convey elegance and modern style, all while ensuring they possess robust functionality.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,25 +39,25 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Adobe",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
         name: "Javascript",
-        value: 80,
+        value: 40,
     },
     {
         name: "React",
-        value: 60,
+        value: 30,
     },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    // {
+    //     name: "Jquery",
+    //     value: 85,
+    // },
+    // {
+    //     name: "Djano",
+    //     value: 85,
+    // },
 ];
 
 const services = [{
