@@ -18,23 +18,26 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "a bit about my self",
-    aboutme: "I am Evgenii Kozhushko, a designer and web developer. I construct web and design solutions that convey elegance and modern style, all while ensuring they possess robust functionality.",
+    title: "A bit about my self",
+    aboutme: "My name is Evgenii Kozhushko, I am a designer and web developer. I build web and design solutions that convey elegance and modern style, all while ensuring they possess robust functionality.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Freelance ",
+        jobdescription: "Specializing in branding, creating layouts, posters and marketing materials. Frontend development - HTML, CSS, JavaScript and React library. Video production and photography.",
+        where: "Canmore, AB, Canada",
+        date: "2010 - currently",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Designer",
+        jobdescription: "Graphic Designer specializing in media and communications, creating a diverse range of projects spanning both digital and traditional offline media.",
+        where: "TOC Elevation Place",
+        date: "2013 - 2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Designer",
+        jobdescription: "Graphic Designer skilled in print, branding, sign installation, and customer service.",
+        where: "Banff Sign Co.",
+        date: "2011 - 2013",
     },
 ];
 
@@ -62,15 +65,15 @@ const skills = [{
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Comprehensive UI and UX Design services, crafting user-centric interfaces and experiences that enhance usability, engagement, and satisfaction.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Design",
+        description: "Custom, responsive websites that prioritize user experience and SEO. Design that convey elegance and modern style while offering robust functionality.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Tailored Content",
+        description: "Enhancing online presence with tailored content. Customized branding, UX/UI, video, and photography services create a captivating visual experience.",
     },
 ];
 
@@ -138,9 +141,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "info@evgenii.ca",
+    // YOUR_FONE: "(555)123-4567",
+    description: "If you would like to know more about services and rates, or would like to schedule a discovery call, please fill out your information below. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -149,10 +152,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/evgeniikozhushko",
+    facebook: "https://www.facebook.com/profile.php?id=100070864575959",
+    linkedin: "https://www.linkedin.com/in/evgenii-kozhushko/",
+    twitter: "https://twitter.com/EvgeniiKremlev",
 };
 export {
     meta,

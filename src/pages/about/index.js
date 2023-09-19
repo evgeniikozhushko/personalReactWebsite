@@ -46,6 +46,7 @@ export const About = () => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
+                      <th scope="row">{data.jobdescription}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
