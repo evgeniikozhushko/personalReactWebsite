@@ -143,7 +143,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "info@evgenii.ca",
     // YOUR_FONE: "(555)123-4567",
-    description: "If you would like to know more about services and rates, or would like to schedule a discovery call, please fill out your information below. ",
+    description: "If you would like to know more about services, please fill out your information below, or get in touch via social network. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",

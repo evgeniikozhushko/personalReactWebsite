@@ -58,7 +58,8 @@ a:hover {
 
 p {
     word-break: break-word;
-    hyphens: auto;
+    /* hyphens: auto; */
+    hyphens: none;
 }
 
 .ovhidden {
