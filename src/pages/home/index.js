@@ -43,7 +43,7 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                {/* <p className="mb-1x">{introdata.description}</p> */}
                 {/* This code block making sure the empty <p> is hidden if there no text.</p>*/}
                 {introdata.descriptionTwo && <p className="mb-1x">{introdata.descriptionTwo}</p>}
                 <div className="intro_btn-action pb-5">
