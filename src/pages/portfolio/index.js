@@ -19,8 +19,12 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
+        <div className="mb-5"> {/* Previously with po_items_ho --> <div className="mb-5 po_items_ho"></div>*/}
           {dataportfolio.map((data, i) => {
+            // Check if any of the required parameters is missing
+            if (!data.img || !data.description || !data.link) {
+              return null; // Don't render the div if any parameter is missing
+            }
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
