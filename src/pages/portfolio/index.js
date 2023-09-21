@@ -21,7 +21,7 @@ export const Portfolio = () => {
         </Row>
         <div className="mb-5"> {/* Previously with po_items_ho --> <div className="mb-5 po_items_ho"></div>*/}
           {dataportfolio.map((data, i) => {
-            // Check if any of the required parameters is missing
+            // Check if any of the required parameters are missing
             if (!data.img || !data.description || !data.link) {
               return null; // Don't render the div if any parameter is missing
             }

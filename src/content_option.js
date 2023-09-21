@@ -1,20 +1,20 @@
-const logotext = "E";
+const logotext = "evgenii.ca";
 const meta = {
     title: "Evgenii Kozhushko",
     description: "I’m Evgenii Kozhushko designer _ Front end devloper, currently working in Canmore",
 };
 
 const introdata = {
-    title: "I am Evgenii",
+    title: "Hi, I am Evgenii.",
     animated: {
         first: "I build websites",
         second: "I design things",
         third: "Let's chat!",
     },
-    description: "Convey elegance and modern style and ensure robust functionality.",
+    description: "Convey elegance and modern style while ensuring robust functionality.",
     descriptionTwo: "",
     // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-    your_img_url: "../../images/web-designer.jpg",
+    // your_img_url: "../../images/web-designer.jpg",
 };
 
 const dataabout = {
