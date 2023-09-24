@@ -78,7 +78,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "",
+        img: "https://picsum.photos/400/?grayscale",
         description: "Bow Valley Climbing Access Society (BVCAS).",
         link: "#",
     },

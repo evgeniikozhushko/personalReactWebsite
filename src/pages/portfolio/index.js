@@ -3,6 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
+// import portfolioImage from "../../assets/images/web_homepage.jpg";
 
 export const Portfolio = () => {
   return (
@@ -25,8 +26,10 @@ export const Portfolio = () => {
             if (!data.description || !data.link) {
               return null; // Don't render the div if any parameter is missing
             }
+
             return (
               <div key={i} className="po_item">
+                {/* Originaly: <img src={data.img} alt="" /> */}
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
