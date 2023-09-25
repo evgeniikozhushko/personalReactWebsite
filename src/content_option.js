@@ -78,7 +78,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: require('./assets/images/web_homepage.jpg'),
         description: "Bow Valley Climbing Access Society (BVCAS).",
         link: "#",
     },

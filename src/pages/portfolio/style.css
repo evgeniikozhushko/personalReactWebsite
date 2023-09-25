@@ -19,10 +19,20 @@
     transition: 0.3s ease;
     font-size: 0;
     min-height: 300px;
+    max-height: 400px;
+    /* Add this property to make sure the content is relative to this container */
+    position: relative;
+    overflow: hidden; /* This hides the content that might overflow */
 }
 
+/* Portfolio image size */
 .po_item img {
+    /* Add these properties to ensure the image fits within the container */
     max-width: 100%;
+    /* max-height: 100%; */
+    /* height: auto; */
+    /* width: auto; */
+    object-fit: contain;
 }
 
 .po_item .content {
@@ -71,7 +81,7 @@
 /* This code block modified the project button */
 .po_item .content a {
     background: var(--bg-color);
-    /* border: solid 1px var(--text-color); */
+    border: solid 1px var(--text-color);
     padding: 10px 20px;
     text-align: center;
     font-size: 1rem;
