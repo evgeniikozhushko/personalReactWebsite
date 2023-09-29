@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class SphereAnimation extends Component {
-render() {
+render  () {
     return (
         <div className="animation-wrapper">
             <div className="sphere-animation">
