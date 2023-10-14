@@ -23,7 +23,7 @@ const dataabout = {
 };
 const worktimeline = [{
         jobtitle: "Freelance ",
-        jobdescription: "Specializing in branding, creating layouts, posters and marketing materials. Frontend development - HTML, CSS, JavaScript and React library. Video production and photography.",
+        jobdescription: "Specializing in frontend development - HTML, CSS, JavaScript and React library. Incorporating design, photography and video production.",
         where: "Canmore, AB, Canada",
         date: "2010 - currently",
     },
@@ -47,11 +47,11 @@ const skills = [{
     },
     {
         name: "Javascript",
-        value: 40,
+        value: 50,
     },
     {
         name: "React",
-        value: 30,
+        value: 45,
     },
     // {
     //     name: "Jquery",
@@ -63,18 +63,19 @@ const skills = [{
     // },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Comprehensive UI and UX Design services, crafting user-centric interfaces and experiences that enhance usability, engagement, and satisfaction.",
-    },
+const services = [
     {
         title: "Website Design",
         description: "Custom, responsive websites that prioritize user experience and SEO. Design that convey elegance and modern style while offering robust functionality.",
     },
     {
-        title: "Tailored Content",
-        description: "Enhancing online presence with tailored content. Customized branding, UX/UI, video, and photography services create a captivating visual experience.",
+        title: "UI & UX Design",
+        description: "Comprehensive UI and UX Design services, crafting user-centric interfaces and experiences that enhance usability, engagement, and satisfaction.",
     },
+    // {
+    //     title: "Tailored Content",
+    //     description: "Enhancing online presence with tailored content. Customized branding, UX/UI, video, and photography services create a captivating visual experience.",
+    // },
 ];
 
 const dataportfolio = [{
