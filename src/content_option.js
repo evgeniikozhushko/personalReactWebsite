@@ -19,13 +19,13 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "My name is Evgenii Kozhushko, I am a designer and web developer. I build web and design solutions that convey elegance and modern style, all while ensuring they possess robust functionality.",
+    aboutme: "My name is Evgenii Kozhushko, I am a designer and web developer. I build web and design solutions that convey elegance and modern style, all while ensuring functionality.",
 };
 const worktimeline = [{
         jobtitle: "Freelance ",
-        jobdescription: "Specializing in branding, creating layouts, posters and marketing materials. Frontend development - HTML, CSS, JavaScript and React library. Video production and photography.",
+        jobdescription: "Frontend development - HTML, CSS, JavaScript and React library. Specializing in branding layouts, and marketing materials. Videography and photography.",
         where: "Canmore, AB, Canada",
-        date: "2010 - currently",
+        date: "2010 - present",
     },
     {
         jobtitle: "Designer",
@@ -47,7 +47,7 @@ const skills = [{
     },
     {
         name: "Javascript",
-        value: 40,
+        value: 45,
     },
     {
         name: "React",
@@ -63,18 +63,19 @@ const skills = [{
     // },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Comprehensive UI and UX Design services, crafting user-centric interfaces and experiences that enhance usability, engagement, and satisfaction.",
-    },
+const services = [
     {
         title: "Website Design",
         description: "Custom, responsive websites that prioritize user experience and SEO. Design that convey elegance and modern style while offering robust functionality.",
     },
     {
-        title: "Tailored Content",
-        description: "Enhancing online presence with tailored content. Customized branding, UX/UI, video, and photography services create a captivating visual experience.",
+        title: "UI & UX Design",
+        description: "Comprehensive UI and UX Design services, crafting user-centric interfaces and experiences that enhance usability, engagement, and satisfaction.",
     },
+    // {
+    //     title: "Tailored Content",
+    //     description: "Enhancing online presence with tailored content. Customized branding, UX/UI, video, and photography services create a captivating visual experience.",
+    // },
 ];
 
 const dataportfolio = [{
