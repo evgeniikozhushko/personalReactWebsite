@@ -1,23 +1,7 @@
-// import React, { Component } from 'react';
-
-// class SphereAnimation extends Component {
-//     render  () {
-//         return (
-//             <div className="animation-wrapper">
-//                 <div className="sphere-animation">
-//                 {/* Paste the SVG code here */}
-//                 </div>
-//             </div>
-//             );
-//         } 
-// }
-// export default SphereAnimation;
-
-
 // chatgpt3 way
 
 import React, { Component } from 'react';
-import '../animation/sphereAnimation.css';
+import './SphereAnimation.css';
 
 class SphereAnimation extends Component {
     componentDidMount() {
