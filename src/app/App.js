@@ -9,6 +9,8 @@ import AppRoutes from "./routes";
 import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
+// anime.js library
+// import anime from 'animejs/lib/anime.es.js';
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
